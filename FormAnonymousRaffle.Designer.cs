@@ -1,7 +1,7 @@
 ﻿
-namespace ClinicalTrial
+namespace AnonymousRaffle
 {
-  partial class frmClinicalTrial
+  partial class frmAnonymousRaffle
   {
     /// <summary>
     /// Required designer variable.
@@ -29,34 +29,34 @@ namespace ClinicalTrial
     /// </summary>
     private void InitializeComponent()
     {
-      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmClinicalTrial));
-      this.dgvPatients = new System.Windows.Forms.DataGridView();
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAnonymousRaffle));
+      this.dgvEntrants = new System.Windows.Forms.DataGridView();
       this.lblStatus = new System.Windows.Forms.Label();
       this.btnReset = new System.Windows.Forms.Button();
       this.btnAllocate1 = new System.Windows.Forms.Button();
       this.btnAllocate4 = new System.Windows.Forms.Button();
       this.btnAllocate3 = new System.Windows.Forms.Button();
       this.btnAllocate2 = new System.Windows.Forms.Button();
-      this.lblPillIcon1 = new System.Windows.Forms.Label();
-      this.lblPillIcon2 = new System.Windows.Forms.Label();
-      this.lblPillIcon3 = new System.Windows.Forms.Label();
-      this.lblPillIcon4 = new System.Windows.Forms.Label();
-      ((System.ComponentModel.ISupportInitialize)(this.dgvPatients)).BeginInit();
+      this.lblPrizeIcon1 = new System.Windows.Forms.Label();
+      this.lblPrizeIcon2 = new System.Windows.Forms.Label();
+      this.lblPrizeIcon3 = new System.Windows.Forms.Label();
+      this.lblPrizeIcon4 = new System.Windows.Forms.Label();
+      ((System.ComponentModel.ISupportInitialize)(this.dgvEntrants)).BeginInit();
       this.SuspendLayout();
       // 
       // dgvPatients
       // 
-      this.dgvPatients.AllowUserToAddRows = false;
-      this.dgvPatients.AllowUserToDeleteRows = false;
-      this.dgvPatients.AllowUserToOrderColumns = true;
-      this.dgvPatients.AllowUserToResizeColumns = false;
-      this.dgvPatients.AllowUserToResizeRows = false;
-      this.dgvPatients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      this.dgvPatients.Location = new System.Drawing.Point(51, 60);
-      this.dgvPatients.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-      this.dgvPatients.Name = "dgvPatients";
-      this.dgvPatients.Size = new System.Drawing.Size(662, 228);
-      this.dgvPatients.TabIndex = 0;
+      this.dgvEntrants.AllowUserToAddRows = false;
+      this.dgvEntrants.AllowUserToDeleteRows = false;
+      this.dgvEntrants.AllowUserToOrderColumns = true;
+      this.dgvEntrants.AllowUserToResizeColumns = false;
+      this.dgvEntrants.AllowUserToResizeRows = false;
+      this.dgvEntrants.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+      this.dgvEntrants.Location = new System.Drawing.Point(51, 60);
+      this.dgvEntrants.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+      this.dgvEntrants.Name = "dgvPatients";
+      this.dgvEntrants.Size = new System.Drawing.Size(662, 228);
+      this.dgvEntrants.TabIndex = 0;
       // 
       // lblStatus
       // 
@@ -119,65 +119,65 @@ namespace ClinicalTrial
       // 
       // lblPillIcon1
       // 
-      this.lblPillIcon1.AutoSize = true;
-      this.lblPillIcon1.Image = ((System.Drawing.Image)(resources.GetObject("lblPillIcon1.Image")));
-      this.lblPillIcon1.Location = new System.Drawing.Point(55, 312);
-      this.lblPillIcon1.Name = "lblPillIcon1";
-      this.lblPillIcon1.Size = new System.Drawing.Size(20, 16);
-      this.lblPillIcon1.TabIndex = 8;
-      this.lblPillIcon1.Text = "    ";
+      this.lblPrizeIcon1.AutoSize = true;
+      this.lblPrizeIcon1.Image = ((System.Drawing.Image)(resources.GetObject("lblPillIcon1.Image")));
+      this.lblPrizeIcon1.Location = new System.Drawing.Point(55, 312);
+      this.lblPrizeIcon1.Name = "lblPillIcon1";
+      this.lblPrizeIcon1.Size = new System.Drawing.Size(20, 16);
+      this.lblPrizeIcon1.TabIndex = 8;
+      this.lblPrizeIcon1.Text = "    ";
       // 
       // lblPillIcon2
       // 
-      this.lblPillIcon2.AutoSize = true;
-      this.lblPillIcon2.Image = ((System.Drawing.Image)(resources.GetObject("lblPillIcon2.Image")));
-      this.lblPillIcon2.Location = new System.Drawing.Point(230, 311);
-      this.lblPillIcon2.Name = "lblPillIcon2";
-      this.lblPillIcon2.Size = new System.Drawing.Size(20, 16);
-      this.lblPillIcon2.TabIndex = 9;
-      this.lblPillIcon2.Text = "    ";
+      this.lblPrizeIcon2.AutoSize = true;
+      this.lblPrizeIcon2.Image = ((System.Drawing.Image)(resources.GetObject("lblPillIcon2.Image")));
+      this.lblPrizeIcon2.Location = new System.Drawing.Point(230, 311);
+      this.lblPrizeIcon2.Name = "lblPillIcon2";
+      this.lblPrizeIcon2.Size = new System.Drawing.Size(20, 16);
+      this.lblPrizeIcon2.TabIndex = 9;
+      this.lblPrizeIcon2.Text = "    ";
       // 
       // lblPillIcon3
       // 
-      this.lblPillIcon3.AutoSize = true;
-      this.lblPillIcon3.Image = ((System.Drawing.Image)(resources.GetObject("lblPillIcon3.Image")));
-      this.lblPillIcon3.Location = new System.Drawing.Point(420, 311);
-      this.lblPillIcon3.Name = "lblPillIcon3";
-      this.lblPillIcon3.Size = new System.Drawing.Size(20, 16);
-      this.lblPillIcon3.TabIndex = 10;
-      this.lblPillIcon3.Text = "    ";
+      this.lblPrizeIcon3.AutoSize = true;
+      this.lblPrizeIcon3.Image = ((System.Drawing.Image)(resources.GetObject("lblPillIcon3.Image")));
+      this.lblPrizeIcon3.Location = new System.Drawing.Point(420, 311);
+      this.lblPrizeIcon3.Name = "lblPillIcon3";
+      this.lblPrizeIcon3.Size = new System.Drawing.Size(20, 16);
+      this.lblPrizeIcon3.TabIndex = 10;
+      this.lblPrizeIcon3.Text = "    ";
       // 
       // lblPillIcon4
       // 
-      this.lblPillIcon4.AutoSize = true;
-      this.lblPillIcon4.Image = ((System.Drawing.Image)(resources.GetObject("lblPillIcon4.Image")));
-      this.lblPillIcon4.Location = new System.Drawing.Point(601, 311);
-      this.lblPillIcon4.Name = "lblPillIcon4";
-      this.lblPillIcon4.Size = new System.Drawing.Size(20, 16);
-      this.lblPillIcon4.TabIndex = 11;
-      this.lblPillIcon4.Text = "    ";
+      this.lblPrizeIcon4.AutoSize = true;
+      this.lblPrizeIcon4.Image = ((System.Drawing.Image)(resources.GetObject("lblPillIcon4.Image")));
+      this.lblPrizeIcon4.Location = new System.Drawing.Point(601, 311);
+      this.lblPrizeIcon4.Name = "lblPillIcon4";
+      this.lblPrizeIcon4.Size = new System.Drawing.Size(20, 16);
+      this.lblPrizeIcon4.TabIndex = 11;
+      this.lblPrizeIcon4.Text = "    ";
       // 
       // frmClinicalTrial
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(766, 428);
-      this.Controls.Add(this.lblPillIcon4);
-      this.Controls.Add(this.lblPillIcon3);
-      this.Controls.Add(this.lblPillIcon2);
-      this.Controls.Add(this.lblPillIcon1);
+      this.Controls.Add(this.lblPrizeIcon4);
+      this.Controls.Add(this.lblPrizeIcon3);
+      this.Controls.Add(this.lblPrizeIcon2);
+      this.Controls.Add(this.lblPrizeIcon1);
       this.Controls.Add(this.btnAllocate2);
       this.Controls.Add(this.btnAllocate3);
       this.Controls.Add(this.btnAllocate4);
       this.Controls.Add(this.btnAllocate1);
       this.Controls.Add(this.btnReset);
       this.Controls.Add(this.lblStatus);
-      this.Controls.Add(this.dgvPatients);
+      this.Controls.Add(this.dgvEntrants);
       this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
       this.Name = "frmClinicalTrial";
       this.Text = "Clinical Trials";
-      ((System.ComponentModel.ISupportInitialize)(this.dgvPatients)).EndInit();
+      ((System.ComponentModel.ISupportInitialize)(this.dgvEntrants)).EndInit();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -185,17 +185,17 @@ namespace ClinicalTrial
 
     #endregion
 
-    private System.Windows.Forms.DataGridView dgvPatients;
+    private System.Windows.Forms.DataGridView dgvEntrants;
     private System.Windows.Forms.Label lblStatus;
     private System.Windows.Forms.Button btnReset;
     private System.Windows.Forms.Button btnAllocate1;
     private System.Windows.Forms.Button btnAllocate4;
     private System.Windows.Forms.Button btnAllocate3;
     private System.Windows.Forms.Button btnAllocate2;
-    private System.Windows.Forms.Label lblPillIcon1;
-    private System.Windows.Forms.Label lblPillIcon2;
-    private System.Windows.Forms.Label lblPillIcon3;
-    private System.Windows.Forms.Label lblPillIcon4;
+    private System.Windows.Forms.Label lblPrizeIcon1;
+    private System.Windows.Forms.Label lblPrizeIcon2;
+    private System.Windows.Forms.Label lblPrizeIcon3;
+    private System.Windows.Forms.Label lblPrizeIcon4;
   }
 }
 

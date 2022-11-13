@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading;
 
-namespace ClinicalTrial
+namespace AnonymousRaffle
 {
-  public class Patient
+  public class Entrant
   {
     public string Initials { get { return initials; } }
     public string DateAdded { get { return dateAdded; } }
     public string DateOfBirth { get { return DOB.ToString("yyyy-MM-dd"); } }
-    public string AllocatedPill { get { return allocatedPill.ToString(); } }
+    public string AllocatedPrize { get { return allocatedPrize.ToString(); } }
 
     public string AllocatedDate { get {
         if (allocatedDate.HasValue)
@@ -21,10 +21,10 @@ namespace ClinicalTrial
     private string initials;
     private string dateAdded;
     public DateTime DOB;
-    private string allocatedPill;
+    private string allocatedPrize;
     private DateTime? allocatedDate;
 
-    public Patient()
+    public Entrant()
     {
       DateTime minimumDOB = new DateTime(1922, 10, 18);
       DateTime maximumDOB = new DateTime(2004, 10, 18);
@@ -33,7 +33,7 @@ namespace ClinicalTrial
       initials = RandomizeInitials();
       DOB = RandomizeDate(minimumDOB, maximumDOB);
       dateAdded = RandomizeDate(minimumAllocatedDate, DateTime.Today).ToString("yyyy-MM-dd, H:mm");
-      allocatedPill = "None";
+      allocatedPrize = "None";
     }
 
     public string RandomizeInitials()
@@ -58,15 +58,15 @@ namespace ClinicalTrial
         return finalDate;
     }
 
-    public void AllocatePill(string pill)
+    public void AllocatePrize(string prize)
     {
-        allocatedPill = pill;
+        allocatedPrize = prize;
         allocatedDate = DateTime.Now;
     }
 
-    public void ResetAllocatedPill()
+    public void ResetAllocatedPrize()
     {
-        allocatedPill = "None";
+        allocatedPrize = "None";
         allocatedDate = null;
     }
   }

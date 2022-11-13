@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ClinicalTrial
+namespace AnonymousRaffle
 {
   static class Program
   {
@@ -16,7 +16,7 @@ namespace ClinicalTrial
     {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new frmClinicalTrial());
+      Application.Run(new frmAnonymousRaffle());
     }
   }
 }
